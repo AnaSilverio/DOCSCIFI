@@ -1,0 +1,479 @@
+    1  exit
+    2  yum install git -y
+    3  cd /tmp/
+    4  git clone https://github.com/Khosmos/EasyLifeNetworks.git
+    5  cd EasyLifeNetworks/
+    6  ./installeln.sh 
+    7  pwd
+    8  cd /usr/share/
+    9  cd EasyLifeNetworks/
+   10  ls
+   11  cd /tmp/
+   12  ls
+   13  exit
+   14  screen -ls
+   15  man screen
+   16  ls -alh
+   17  uname -a
+   18  cd /usr/share/EasyLifeNetworks/
+   19  ll
+   20  vim confs/variables.sh 
+   21  ./eln.sh 
+   22  jfkdandnk
+   23  vim confs/variables.sh 
+   24  ifconfig
+   25  vim confs/variables.sh 
+   26  ll
+   27  cd modules/
+   28  ll
+   29  vim Network.sh 
+   30  cd ..
+   31  ./eln.sh 
+   32  vim modules/Network.sh 
+   33  ./eln.sh 
+   34  vim modules/Network.sh 
+   35  ./eln.sh 
+   36  vim modules/Network.sh 
+   37  ./eln.sh 
+   38  vim modules/Network.sh 
+   39  screen -x SHARE
+   40  if config
+   41  ifconfig
+   42  exit
+   43  ps aux | grep bash
+   44  kill 20223
+   45  ifconfig
+   46  nmcli device status
+   47  nmcli device status | grep ethernet | tr -s " "
+   48  nmcli device status
+   49  nmcli device status | grep ethernet | tr -s " "
+   50  set
+   51  set | more
+   52  cd /usr/share/EasyLifeNetworks/
+   53  LL
+   54  ll
+   55  cd lib
+   56  ll
+   57  cd common/
+   58  ll
+   59  vim displayyn.sh 
+   60  ifconfig
+   61  nmcli connection
+   62  nmcli connection ?
+   63  nmcli connection show 
+   64  nmcli connection show "Wired connection 1"
+   65    
+   66  cd ..
+   67  vim confs/variables.sh 
+   68  yum install screen
+   69  echo $LINES;$COLUMNS
+   70  echo $LINES,$COLUMNS
+   71  screen -S SHARE
+   72  echo $LINES,$COLUMNS
+   73  screen -S SHARE
+   74  echo $LINES,$COLUMNS
+   75  screen -x SHARE
+   76  screen -S SHARE
+   77  echo $LINES,$COLUMNS
+   78  screen -x SHARE
+   79  cd /usr/share/EasyLifeNetworks/modules/
+   80  cat  Postfix
+   81  cat Postfix.sh 
+   82  vim Postfix.sh 
+   83  cd ..
+   84  ./eln.sh 
+   85  cd modules/
+   86  vim Postfix.sh 
+   87  ./eln.sh 
+   88  cd ..
+   89  ./eln.sh 
+   90  cd modules/
+   91  vim Postfix.sh 
+   92  cd ..
+   93  ./eln.sh 
+   94  cd modules/
+   95  vim Postfix.sh 
+   96  exit
+   97  cd /usr/share/EasyLifeNetworks/
+   98  ls
+   99  cd modules/
+  100  ls
+  101  cat Network.sh 
+  102  echo $LINES,$COLUMNS
+  103  ls
+  104  cat DenyHosts.sh 
+  105  tar cvf EasyLifeNetworksOK_$(date +%Y-%m-%d_%H-%M-%S).tar EasyLifeNetworks/
+  106  ls | grep EasyLifeNetworks
+  107  pwd
+  108  mv EasyLifeNetworksOK_2015-09-07_11-03-20.tar /home/teste/Documentos/ELN/
+  109  ls | grep EasyLifeNetworks
+  110  cd /home/teste/Documentos/ELN/
+  111  ls
+  112  tar xvf EasyLifeNetworksOK_2015-09-07_11-03-20.tar
+  113  ls
+  114  yes | rm -r usr/ EasyLifeNetworksOK_2015-09-07_10-55-05.tar EasyLifeNetworksOK_2015-09-07_11-00-10.tar 
+  115  ls
+  116  yes | rm -r ELN_2015-09-07_10-50-57.tar.gz arquivo_2015-09-07_10-50-26.tar.gz 
+  117  ls
+  118  echo $LINES,$COLUMNS
+  119  echo -e "\e[8;36;131t"
+  120  screen -x SHARE
+  121  vim /usr/share/EasyLifeNetworks/confs/variables.sh 
+  122  vim /usr/share/EasyLifeNetworks/modules/Network.sh 
+  123  vim /usr/share/EasyLifeNetworks/modules/Apache.sh 
+  124  vim /usr/share/EasyLifeNetworks/modules/Postfix.sh
+  125  cd /usr/share/EasyLifeNetworks/
+  126  cd modules/
+  127  ll
+  128  vim JavaJDK.sh 
+  129  yum search java
+  130  ping www.uol.com.br
+  131  yum search java
+  132  yum search java | more
+  133  echo $LINES,$COLUMNS
+  134  vim JavaJDK.sh 
+  135  yum search openjdk | more
+  136  vim JavaJDK.sh 
+  137  yum search openjdk | more
+  138  vim Postfix.sh 
+  139  vim ../eln.sh 
+  140  set | more
+  141  vim ../eln.sh 
+  142  vim Postfix.sh 
+  143  locate main.cf
+  144  cd /etc/postfix/
+  145  ll
+  146  pwd
+  147  diff main.cf /usr/share/EasyLifeNetworks/modules/Postfix/main.cf 
+  148  pwd
+  149  cd /usr/share/EasyLifeNetworks/modules/Postfix/
+  150  vim main.cf 
+  151  yum update postfix
+  152  vim /etc/postfix/main.cf 
+  153  vim main.cf 
+  154  ll
+  155  vim sasl_passwd 
+  156  pwd
+  157  vim ../Postfix.sh 
+  158  cd ..
+  159  vim JavaJDK.sh 
+  160  vim JavaOracle.sh 
+  161  pwd
+  162  cd ..
+  163  ./eln.sh 
+  164  vim JavaOracle.sh 
+  165  cd modules/
+  166  ls
+  167  vim JavaJDK.sh 
+  168  ls
+  169  vim JavaOracle.sh 
+  170  cd ..
+  171  ./eln.sh 
+  172  cd modules/
+  173  vim JavaOracle.sh 
+  174  cd ..
+  175  ./eln.sh 
+  176  cd modules/
+  177  vim JavaOracle.sh 
+  178  vim JavaJDK.sh 
+  179  cd ..
+  180  ./eln.sh 
+  181  cd modules/
+  182  vim JavaOracle.sh 
+  183  vim JavaJDK.sh 
+  184  vim JavaOracle.sh 
+  185  cd ..
+  186  ./eln.sh 
+  187  cd modules/
+  188  vim Network.sh 
+  189  vim JavaJDK.sh 
+  190  ls
+  191  cd ..
+  192  ls
+  193  cd modules/
+  194  vim Variables.sh 
+  195  ls
+  196  cd ..
+  197  ls
+  198  cd scripts/
+  199  ls
+  200  ll
+  201  cd ..
+  202  cd confs/
+  203  ll
+  204  vim variables.sh 
+  205  echo -e "\e[8;36;131t"
+  206  screen -x SHARE
+  207  pwd
+  208  cd /usr/share/
+  209  tar cvf EasyLifeNetworksOK_$(date +%Y-%m-%d_%H-%M-%S).tar EasyLifeNetworks/
+  210  mv EasyLifeNetworksOK_2015-09-07_12-52-20.tar /home/teste/Documentos/ELN/
+  211  cd /home/teste/Documentos/ELN/
+  212  ls
+  213  exit
+  214  ifconfig
+  215  screen -ls
+  216  screen -x SHARE
+  217  cd /usr/share/EasyLifeNetworks/
+  218  vim modules/Network.sh 
+  219  screen -x SHARE
+  220  cd /usr/share/EasyLifeNetworks/
+  221  cat /etc/resolv.conf
+  222  route -n
+  223  exit
+  224  cd /usr/share/EasyLifeNetworks/
+  225  tar cvf EasyLifeNetworksOK_$(date +%Y-%m-%d_%H-%M-%S).tar EasyLifeNetworks/
+  226  cd ..
+  227  tar cvf EasyLifeNetworksOK_$(date +%Y-%m-%d_%H-%M-%S).tar EasyLifeNetworks/
+  228  mv EasyLifeNetworksOK_2015-09-09_09-58-09.tar /home/teste/Documentos/ELN/
+  229  echo -e "\e[8;36;131t"
+  230  screen -x SHARE
+  231  exit
+  232  cd /usr/share/EasyLifeNetworks/
+  233  ll
+  234  vim modules/JavaOracle.sh 
+  235  cd /opt/
+  236  ll
+  237  tar xvf jre-8u60-linux-x64.tar.gz
+  238  tar xvf jdk-8u60-linux-x64.tar.gz
+  239  ll
+  240  ls -alh /opt/jdk-8u60/bin/java
+  241  ls -alh /opt/jdk1.8.0_60/bin/java
+  242  ll
+  243  chown -R root: jdk1.8.0_6
+  244  chown -R root: jdk1.8.0_60
+  245  alternatives --install /usr/bin/java java /opt/jdk1.8.0_60/bin/java 1  
+  246  alternatives 
+  247  alternatives --display java
+  248  alternatives 
+  249  alternatives --config java
+  250  alternatives --display java
+  251  alternatives --config java
+  252  alternatives --display java
+  253  alternatives 
+  254  screen -x SHARE
+  255  screen -S SHARE
+  256  wget ftp://mirror.switch.ch/pool/4/mirror/fedora/linux/releases/22/Everything/x86_64/os/Packages/f/fwbuilder-5.1.0.3599-5.fc20.x86_64.rpm
+  257  yum localinstall fwbuilder-5.1.0.3599-5.fc20.x86_64.rpm 
+  258  exit
+  259  history 
+  260  echo $LINES,$COLUMNS
+  261  screen -x SHARE
+  262  screen -x SHARE
+  263  echo -e "\e[8;36;131t"
+  264  screen -x SHARE
+  265  pwd
+  266  ll
+  267  ls
+  268  cd /usr/share/EasyLifeNetworks/modules/
+  269  vim DNSMasq.sh 
+  270  cd ..
+  271  ./eln.sh 
+  272  cd modules/
+  273  vim DNSMasq.sh 
+  274  vim SNMPD.sh 
+  275  cd ..
+  276  ./eln.sh 
+  277  cd modules/
+  278  vim SNMPD.sh 
+  279  echo -e "\e[8;36;131t"
+  280  screen -x SHARE
+  281  vim JavaOracle.sh 
+  282  cd /usr/share/
+  283  tar cvf EasyLifeNetworksOK_$(date +%Y-%m-%d_%H-%M-%S).tar EasyLifeNetworks/
+  284  mv EasyLifeNetworksOK_2015-09-11_21-25-43.tar /home/teste/Documentos/ELN/
+  285  cd /home/teste/Documentos/
+  286  ls
+  287  git init
+  288  ls
+  289  ll
+  290  cd /usr/share/EasyLifeNetworks/
+  291  git init 
+  292  git status
+  293  ll
+  294  mv EasyLifeNetworksOK_2015-09-09_09-57-56.tar /home/teste/Documentos/ELN/
+  295  ll
+  296  git status
+  297  mkdir t
+  298  ll
+  299  touch .gitignore
+  300  ls
+  301  ll
+  302  git status
+  303  rm .gitignore 
+  304  vim .gitignore 
+  305  git status
+  306  rm .gitignore 
+  307  git status
+  308  ll
+  309  rm -R t/
+  310  git status
+  311  git config --global user.name "AnaSilverio"
+  312  git config --global user.email "anasilverio@id.uff.br"
+  313  cd /usr/share/EasyLifeNetworks/
+  314  git status
+  315  git log --pretty=oneline
+  316  git log
+  317  git checkout master
+  318  git status
+  319  ll
+  320  cd modules/
+  321  vim DNSMasq.sh 
+  322  cd ..
+  323  git branch 
+  324  git branch teste
+  325  git branch 
+  326  cd /home/teste/Documentos/
+  327  mkdir git
+  328  cd git
+  329  git init
+  330  git clone https://github.com/Khosmos/EasyLifeNetworks.git
+  331  ls
+  332  cd
+  333  ls
+  334  ll
+  335  git branch 
+  336  git init
+  337  git branch 
+  338  pwd
+  339  cd /home/teste/Documentos/git/EasyLifeNetworks/
+  340  ll
+  341  git init
+  342  git branch 
+  343  ll
+  344  cd ..
+  345  ll
+  346  git clone https://github.com/Khosmos/EasyLifeNetworks.git
+  347  rm -R EasyLifeNetworks/
+  348  git branch 
+  349  git branch master
+  350  git status
+  351  git checkout master
+  352  cd ..
+  353  mkdir GIT
+  354  cd GIT/
+  355  git init
+  356  git clone https://github.com/Khosmos/EasyLifeNetworks.git
+  357  git branch 
+  358  git checkout master
+  359  git branch teste
+  360  ll
+  361  cd EasyLifeNetworks/
+  362  git branch 
+  363  git branch teste
+  364  git checkout teste 
+  365  git branch 
+  366  echo -e "\e[8;36;131t"
+  367  screen -x SHARE
+  368  cd /usr/share/
+  369  tar cvf EasyLifeNetworksOK_$(date +%Y-%m-%d_%H-%M-%S).tar EasyLifeNetworks/
+  370  mv EasyLifeNetworksOK_2015-09-12_12-03-36.tar /home/teste/Documentos/ELN/
+  371  exit
+  372  cd /usr/share/EasyLifeNetworks/modules/
+  373  vim Apache.sh 
+  374  cd ..
+  375  ./eln.sh 
+  376  cd modules/
+  377  vim Apache.sh 
+  378  cd ..
+  379  ./eln.sh 
+  380  cd modules/
+  381  vim Apache.sh 
+  382  vim Monitorix.sh 
+  383  cd ..
+  384  ./eln.sh 
+  385  cd modules/
+  386  vim Monitorix.sh 
+  387  cd ..
+  388  ./eln.sh 
+  389  cd modules/
+  390  vim Monitorix.sh 
+  391  exit
+  392  ll
+  393  cd /usr/share/EasyLifeNetworks/
+  394  history 
+  395  history | grep -i echo
+  396  echo $LINES;$COLUMNS
+  397  echo $LINES,$COLUMNS
+  398  ll
+  399  vim modules/LDAP.sh 
+  400  yum install openldap-clients openldap nss-pam-ldapd openldap-servers  -y
+  401  vim modules/LDAP.sh 
+  402  updatedb
+  403  locate DB_CONFIG
+  404  diff /usr/share/openldap-servers/DB_CONFIG.example /usr/share/EasyLifeNetworks/modules/LDAP/DB_CONFIG.example
+  405  locate slapd.conf
+  406  cd modules/LDAP
+  407  ll
+  408  vim ldap.cron 
+  409  ll
+  410  vim fazbkp.sh 
+  411  ll
+  412  vim restauraLDAP.sh 
+  413  ll
+  414  vim populate.sh 
+  415  cat /etc/shadow
+  416  vim populate.sh 
+  417  date
+  418  vim populate.sh 
+  419  vim restauraLDAP.sh 
+  420  vim populate.sh 
+  421  ll
+  422  cd ..
+  423  vim RADIUS.sh 
+  424  vi /root/.viminfo 
+  425  vi /root/.vimrc
+  426  vim RADIUS.sh 
+  427  cd ..
+  428  ./eln.sh 
+  429  vim modules/RADIUS.sh 
+  430  vim modules/RADIUS/raddb/clients.conf 
+  431  vim modules/RADIUS/raddb/modules/ldap 
+  432  vim modules/RADIUS/raddb/eap.conf 
+  433  vim modules/RADIUS/raddb/radiusd.conf 
+  434  vim modules/RADIUS/raddb/sites-available/default 
+  435  getent passwd
+  436  ./eln.sh 
+  437  getent passwd
+  438  cat /etc/passwd
+  439  getent passwd
+  440  ldap.sh 
+  441  locate ldap.sh
+  442  updatedb
+  443  locate ldap.sh
+  444  vim /usr/bin/ldap.sh 
+  445  ldap.sh 
+  446  vim /usr/bin/ldap.sh 
+  447  setup
+  448  vim /usr/bin/ldap.sh 
+  449  ldap.sh 
+  450  su - teste
+  451  service radiusd restart
+  452  systemctl status radiusd.service
+  453  radiusd -X
+  454  ls -alh /etc/raddb/policy.conf
+  455  vim modules/RADIUS.sh 
+  456  radiusd -X
+  457  vim /etc/raddb/radiusd.conf
+  458  radiusd -X
+  459  vim /etc/raddb/radiusd.conf
+  460  radiusd -X
+  461  vim /etc/raddb/radiusd.conf
+  462  radiusd -X
+  463  vim /etc/raddb/sites-enabled/inner-tunnel
+  464  radiusd -X
+  465  vim /etc/raddb/radiusd.conf
+  466  radiusd -X
+  467  cat modules/RADIUS.sh 
+  468  yum remove freeradius freeradius-utils freeradius-ldap 
+  469  rm -rf /etc/raddb/
+  470  rm -rf /etc/freeradius 
+  471  yum install freeradius freeradius-utils freeradius-ldap -y
+  472  cd /etc/raddb/
+  473  ll
+  474  vim radiusd.conf 
+  475  vim /etc/raddb/radiusd.conf:0
+  476  vim /etc/raddb/radiusd.conf
+  477  pwd
+  478  cd /home/teste/Documentos/
+  479  history > SHAREate15092015.txt
