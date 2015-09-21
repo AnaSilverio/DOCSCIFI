@@ -1,0 +1,57 @@
+#
+# Last changes:
+#
+# 21/09/2015
+#
+#
+# Author:
+#
+# Ana Carolina Silvério
+#
+#
+#
+# History Description
+
+---------------------------------------------
+# 1
+#testamos o passo #1, usando o comando de instalação para verificar algum erro nesse processo:
+yum install -y
+
+
+# 2
+# comparamos o arquivo ntp.conf, que estava em /modules/NTPD,
+com o arquivo que estava na máquina, localizado em /etc/ntp.conf
+manualmente
+
+# 3
+# vimos as diferenças dos arquivos através do diff
+diff /etc/ntp.conf /usr/share/EasyLifeNetwork/modules/NTPD/ntp.conf
+
+e
+
+diff /etc/ntp.conf /usr/share/EasyLifeNetwork/modules/NTPD/ntp.conf | more
+
+
+# 4
+# vimos o Base.sh, que fica em /modules, para verificar se ele tinha 
+# alguma conexão com o NTPD. O resultado: ele não tem, pois não instala 
+# nenhum pacote nem configura nada no ntpd
+vim modules/Base.sh
+
+#5
+#abrimos uma entrada pro ntpd no variables
+#
+
+
+
+# 6
+# avaliamos o NTPD.sh para achar o ponto que tinhamos que "parametrizar"
+# Como nã tinha muita mudança, voltamos a avaliar o ntp.conf , em /moduls/NTPD
+
+#7
+#
+#decidimos por fazer uma configuração onde fosse criada o arquivo ntp.conf
+de acordo com a versão do centos usada
+
+CONTINUA...
+
