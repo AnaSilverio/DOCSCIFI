@@ -1,0 +1,33 @@
+----------------
+ 1007  cat /etc/resolv.conf
+ 1008   echo “nameserver 8.8.8.8″ >> /etc/resolv.conf
+ 1009  cat /etc/resolv.conf
+ 1010  vim /etc/resolv.conf
+ 1011  yum install vconfig -y
+ 1012  cat /etc/resolv.conf
+ 1013  vconfig add enp6sl 200
+ 1014  lsmod | grep 8021q 
+ 1015  modprobe 8021q
+ 1016  lsmod | grep 8021q 
+ 1017  vconfig add enp6sl 200
+ 1018  ifconfig 
+ 1019  vconfig add enp6s1 200
+ 1020  ifconfig 
+ 1021  ifconfig enp6sl.200 up
+ 1022  ifconfig enp6s1.200 up
+ 1023  ifconfig 
+ 1024  dhclient enp6s1.200
+ 1025  ifconfig 
+ 1026  kill 4582
+ 1027  dhclient enp6s1.200
+ 1028  ifconfig 
+ 1029  ping 172.17.0.1
+ 1030  histoy > enp6s1.200
+ 1031  touch  enp6s1.200
+ 1032  histoy > enp6s1.200
+ 1033  vim enp6s1.200 
+ 1034  history > enp6s1.200
+ 1035  vim enp6s1.200 
+ 1036  history > enp6s1.200
+ 1037  vim enp6s1.200 
+ 1038  history > enp6s1.200
