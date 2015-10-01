@@ -1,33 +1,25 @@
 ----------------
+#vendo o arquivo de configuração do dns da maq
  1007  cat /etc/resolv.conf
+ # adicionando o endereço 8.8.8.8 nesse arquivo para servir de dns
  1008   echo “nameserver 8.8.8.8″ >> /etc/resolv.conf
+ #vendo como ficou apos a modificação
  1009  cat /etc/resolv.conf
+ #tirando o nameserver 172.17.0.1 da lista
  1010  vim /etc/resolv.conf
+ #instalando o vconfig
  1011  yum install vconfig -y
+ #vendo como esta o arquivo
  1012  cat /etc/resolv.conf
- 1013  vconfig add enp6sl 200
+ #verificar se o módulo de encapsulamento 8021q está ativo no kernel.
  1014  lsmod | grep 8021q 
+ #Para ativar: 
  1015  modprobe 8021q
+ #verifiacndo
  1016  lsmod | grep 8021q 
- 1017  vconfig add enp6sl 200
- 1018  ifconfig 
+ #adicionando a placa de rede virtual enp6s1.200
  1019  vconfig add enp6s1 200
- 1020  ifconfig 
- 1021  ifconfig enp6sl.200 up
+ #ativando a interface virtual
  1022  ifconfig enp6s1.200 up
- 1023  ifconfig 
+ #pedindo ip que a vlan fornece
  1024  dhclient enp6s1.200
- 1025  ifconfig 
- 1026  kill 4582
- 1027  dhclient enp6s1.200
- 1028  ifconfig 
- 1029  ping 172.17.0.1
- 1030  histoy > enp6s1.200
- 1031  touch  enp6s1.200
- 1032  histoy > enp6s1.200
- 1033  vim enp6s1.200 
- 1034  history > enp6s1.200
- 1035  vim enp6s1.200 
- 1036  history > enp6s1.200
- 1037  vim enp6s1.200 
- 1038  history > enp6s1.200
